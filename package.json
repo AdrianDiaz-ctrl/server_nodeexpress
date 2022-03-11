@@ -1,0 +1,26 @@
+{
+  "name": "my_store",
+  "version": "1.0.0",
+  "description": "CRUD con Node",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint"
+  },
+  "author": "Adrian Diaz",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/boom": "^9.1.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "faker": "^5.5.3",
+    "joi": "^17.4.2",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
